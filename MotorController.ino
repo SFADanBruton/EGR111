@@ -23,9 +23,6 @@ int turnTime = 200;             //amount that the robot will turn once it has ba
 /********************************************************************************/
 void setup()
 {
-  pinMode(trigPin, OUTPUT);       //this pin will send ultrasonic pulses out from the distance sensor
-  pinMode(echoPin, INPUT);        //this pin will sense when the pulses reflect back to the distance sensor
-
   pinMode(switchPin, INPUT_PULLUP);   //set this as a pullup to sense whether the switch is flipped
 
   //set the motor contro pins as outputs
